@@ -7,7 +7,7 @@
     android:gravity="center"
     android:layout_margin="16dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:background="#F5F5F5">
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,7 +24,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:padding="8dp"
-        android:text="Play Offline"/>
+        android:text="Play Offline"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,20 +36,23 @@
         android:text="OR"
         android:textSize="28sp"
         android:textStyle="bold" />
+
     <Button
         android:id="@+id/create_online_game_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:padding="8dp"
-        android:text="Create Game Online"/>
+        android:text="Create Game Online"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
 
     <EditText
         android:id="@+id/game_id_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:hint="Enter GameID "
+        android:hint="Enter GameID"
         android:inputType="number"
         android:padding="8dp"
         android:textSize="24sp" />
@@ -57,5 +63,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:padding="8dp"
-        android:text="Join Game Online"/>
+        android:text="Join Game Online"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
 </LinearLayout>
