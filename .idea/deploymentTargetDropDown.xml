@@ -4,6 +4,18 @@
     <value>
       <entry key="app">
         <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\jeevan raj\.android\avd\Copy_of_Pixel_6_Pro_API_26.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-05-09T14:11:01.653479100Z" />
           <multipleDevicesSelectedInDropDown value="true" />
           <targetsSelectedWithDialog>
             <Target>
@@ -11,7 +23,16 @@
               <deviceKey>
                 <Key>
                   <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\jeevan raj\.android\avd\Pixel_6_API_26.avd" />
+                  <value value="C:\Users\jeevan raj\.android\avd\Copy_of_Pixel_6_Pro_Edited_API_26.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\jeevan raj\.android\avd\Copy_of_Pixel_6_Pro_API_26.avd" />
                 </Key>
               </deviceKey>
             </Target>

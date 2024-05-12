@@ -7,14 +7,15 @@
     android:gravity="center"
     android:layout_margin="16dp"
     android:orientation="vertical"
-    android:background="#F5F5F5">
+    android:background="@drawable/gradient_list"
+    android:id="@+id/constraintLayout">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:padding="8dp"
-        android:text="TIC TAC TOE Online Game"
+        android:text="TIC TAC TOE Game"
         android:textSize="28sp"
         android:textStyle="bold" />
 
